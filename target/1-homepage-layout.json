@@ -1,0 +1,223 @@
+{
+  "testId" : "1-homepage-layout",
+  "name" : "homepage layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check homepage layout",
+      "status" : "error",
+      "time" : 1530268003604,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Home Page",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "inside screen 0px left",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "inside screen 0px right",
+            "highlight" : [ "header", "screen" ]
+          } ]
+        }, {
+          "name" : "sw-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "below header 31px",
+            "highlight" : [ "sw-logo", "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "image file sw-logo.png, error %5",
+            "errors" : [ "Element does not look like \"\\\\sw-logo.png\". There are 9 mismatching pixels but max allowed is 5" ],
+            "highlight" : [ "sw-logo" ],
+            "imageComparison" : {
+              "actualImage" : "layout-2-sw-logo-actual.png",
+              "expectedImage" : "layout-3-sw-logo-expected.png",
+              "comparisonMapImage" : "layout-4-sw-logo-map.png"
+            }
+          } ]
+        }, {
+          "name" : "navigation-links-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-10",
+            "highlight" : [ "navigation-links-1", "navigation-links-10" ]
+          } ]
+        }, {
+          "name" : "navigation-links-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-2",
+            "highlight" : [ "navigation-links-10", "navigation-links-2" ]
+          } ]
+        }, {
+          "name" : "navigation-links-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-3",
+            "highlight" : [ "navigation-links-2", "navigation-links-3" ]
+          } ]
+        }, {
+          "name" : "navigation-links-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-4",
+            "highlight" : [ "navigation-links-3", "navigation-links-4" ]
+          } ]
+        }, {
+          "name" : "navigation-links-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-5",
+            "highlight" : [ "navigation-links-4", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-6",
+            "highlight" : [ "navigation-links-5", "navigation-links-6" ]
+          } ]
+        }, {
+          "name" : "navigation-links-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-7",
+            "highlight" : [ "navigation-links-6", "navigation-links-7" ]
+          } ]
+        }, {
+          "name" : "navigation-links-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-8",
+            "highlight" : [ "navigation-links-7", "navigation-links-8" ]
+          } ]
+        }, {
+          "name" : "navigation-links-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "aligned horizontally all navigation-links-9",
+            "highlight" : [ "navigation-links-8", "navigation-links-9" ]
+          } ]
+        }, {
+          "name" : "nav-menu",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/homepage.gspec",
+              "lineNumber" : 35
+            },
+            "name" : "above follow-us-box 20px",
+            "errors" : [ "\"follow-us-box\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "navigation-links-10" : {
+          "area" : [ 1098, 172, 17, 53 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1167, 3057 ]
+        },
+        "navigation-links-4" : {
+          "area" : [ 358, 172, 208, 53 ]
+        },
+        "navigation-links-3" : {
+          "area" : [ 186, 172, 171, 53 ]
+        },
+        "navigation-links-2" : {
+          "area" : [ 119, 172, 68, 53 ]
+        },
+        "navigation-links-1" : {
+          "area" : [ 51, 172, 68, 53 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1167, 45 ]
+        },
+        "navigation-links-9" : {
+          "area" : [ 1016, 172, 82, 53 ]
+        },
+        "navigation-links-8" : {
+          "area" : [ 933, 172, 84, 53 ]
+        },
+        "navigation-links-7" : {
+          "area" : [ 811, 172, 122, 53 ]
+        },
+        "sw-logo" : {
+          "area" : [ 394, 76, 378, 64 ]
+        },
+        "navigation-links-6" : {
+          "area" : [ 707, 172, 104, 53 ]
+        },
+        "navigation-links-5" : {
+          "area" : [ 565, 172, 141, 53 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
